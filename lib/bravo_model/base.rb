@@ -2,6 +2,7 @@
 class BravoModel::Base < ActiveRecord::Base
   include BravoModel::Utils
   include BravoModel::Validation
+  include BravoSupport::Memoization
 
 
   class_attribute :columns
