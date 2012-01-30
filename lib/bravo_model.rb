@@ -1,6 +1,5 @@
 module BravoModel
 end
-require 'bravo_support'
 
 require 'bravo_model/utils'
 require 'bravo_model/validation'

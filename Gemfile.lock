@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bravo_model (0.0.3)
+    bravo_model (0.0.4)
 
 GEM
   remote: http://rubygems.org/
