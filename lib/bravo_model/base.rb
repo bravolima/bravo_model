@@ -34,7 +34,8 @@ class BravoModel::Base < ActiveRecord::Base
   end
       
 
-  # -- break --
+  # pk columns, used on 'create'
+  column :id, :string
 
 
   # nodoc
