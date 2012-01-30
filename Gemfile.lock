@@ -1,13 +1,11 @@
 PATH
   remote: .
   specs:
-    bravo_model (0.0.2)
-      bravo_support
+    bravo_model (0.0.3)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    bravo_support (0.0.1)
 
 PLATFORMS
   ruby

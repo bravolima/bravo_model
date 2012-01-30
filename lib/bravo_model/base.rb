@@ -1,8 +1,9 @@
 # based on https://gist.github.com/1101257
 class BravoModel::Base < ActiveRecord::Base
+  self.abstract_class = true
+
   include BravoModel::Utils
   include BravoModel::Validation
-  include BravoSupport::Memoization
 
 
   class_attribute :columns
